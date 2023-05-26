@@ -1,0 +1,264 @@
+.overlay {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  height: 100vh;
+  background-color: rgba(63, 65, 80, 0.7);
+  transition: display 300ms ease-in-out;
+  z-index: 2px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 100;
+}
+
+.menubox {
+  width: 900px;
+  background-color: #eff9ff;
+  z-index: 3px;
+  padding: 25px;
+  border-radius: 10px;
+}
+
+.is-active {
+  display: none;
+}
+
+.text-title {
+  text-align: center;
+}
+
+.text-title1 {
+  color: #004e8e;
+  font-family: "NanumSquareNeo-dEb";
+  font-size: 20px;
+}
+
+.text-title2 {
+  margin-left: 10px;
+  color: rgb(5, 13, 72);
+  font-family: "NanumSquareNeo-dEb";
+  font-size: 20px;
+}
+
+.setting-close-btn {
+  float: right;
+  font-size: 25px;
+  margin-right: 10px;
+  cursor: pointer;
+}
+
+.img-box3 {
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+  padding: 15px;
+}
+
+.img-box-container {
+  width: 80%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  margin: 0 auto;
+}
+
+.img-box-list {
+  display: flex;
+}
+
+.img-wrapper {
+  width: 120px;
+  height: 120px;
+  border: solid rgb(225, 237, 255);
+  background-color: transparent;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 15px;
+  margin-right: 20px;
+  cursor: pointer;
+}
+
+.img-wrapper:hover {
+  background-color: #fff;
+  border: thick dotted rgb(159, 209, 255);
+}
+
+.img-wrapper:active {
+  background-color: #eeeeee;
+}
+
+.img-wrapper:active close {
+  display: block;
+}
+
+.close {
+  position: absolute;
+  width: 30px;
+  height: 30px;
+  object-fit: cover;
+  top: -20px;
+  right: -10px;
+  display: none;
+}
+
+.service {
+  width: 70px;
+}
+
+.img-box4 input {
+  display: none;
+}
+
+.img-btn-box {
+  width: 320px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+}
+
+.img-btn-box button {
+  width: 140px;
+  background-color: #ffffff;
+  border: none;
+  border: 1px solid #ececec;
+  border-radius: 8px;
+  padding: 10px 15px;
+  font-family: "Pretendard-Medium";
+  font-size: 16px;
+  cursor: pointer;
+}
+
+.img-btn-box button:first-child {
+  background-color: #aaaaaa;
+  color: #fff;
+}
+
+.img-btn-box button:first-child:hover {
+  background-color: #838383;
+}
+
+.img-btn-box button:last-child {
+  background-color: #2160a8;
+  color: #fff;
+}
+
+.img-btn-box button:last-child:hover {
+  background-color: #033369;
+}
+
+@media screen and (max-width: 980px) {
+  .menubox {
+    width: 600px;
+  }
+
+  .text-title1 {
+    color: #3d3d3d;
+    font-family: "NanumSquareNeo-dEb";
+    font-size: 20px;
+  }
+
+  .text-title2 {
+    color: rgb(5, 13, 72);
+    font-family: "NanumSquareNeo-dEb";
+  }
+
+  .setting-close-btn {
+    font-size: 25px;
+    margin-top: -8px;
+  }
+
+  .img-wrapper {
+    width: 70px;
+    height: 70px;
+  }
+
+  .service {
+    width: 40px;
+  }
+
+  .img-btn-box {
+    width: 250px;
+  }
+
+  .img-wrapper:hover {
+    background-color: #fff;
+    border: 0;
+    transition: all 300ms ease-in-out;
+  }
+
+  .img-btn-box button {
+    width: 100px;
+  }
+
+  .img-btn-box button:first-child {
+    background-color: #ffffff;
+    color: #000000;
+  }
+
+  .img-btn-box button:first-child:hover {
+    background-color: #e0e0e0;
+    transition: all 300ms ease-in-out;
+  }
+
+  .img-btn-box button:last-child {
+    background-color: #000000;
+    color: #fff;
+  }
+
+  .img-btn-box button:last-child:hover {
+    background-color: #3b3b3b;
+    transition: all 300ms ease-in-out;
+  }
+}
+
+@media screen and (max-width: 700px) {
+  .menubox {
+    width: 400px;
+  }
+
+  .text-title1 {
+    font-size: 16px;
+  }
+
+  .text-title2 {
+    font-size: 16px;
+  }
+
+  .setting-close-btn {
+    font-size: 20px;
+    margin-top: -3px;
+  }
+
+  .img-wrapper {
+    width: 50px;
+    height: 50px;
+  }
+
+  .service {
+    width: 32px;
+  }
+
+  .img-btn-box {
+    width: 200px;
+  }
+
+  .img-wrapper:hover {
+    border: 2px solid #0d487b;
+  }
+
+  .img-btn-box button {
+    width: 90px;
+    padding: 5px;
+  }
+
+  .img-btn-box button:first-child,
+  .img-btn-box button:last-child {
+    font-size: 13px;
+  }
+}

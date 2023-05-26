@@ -1,0 +1,159 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.Complaints-wrapper {
+  width: 60%;
+  margin: 0 auto;
+  margin-bottom: 200px;
+}
+
+.Complaints-top {
+  display: flex;
+  justify-content: space-between;
+}
+
+.Box-Tag2 {
+  width: 130px;
+  text-align: center;
+  padding: 10px 8px;
+  font-size: 15px;
+  background-color: #002d46;
+  color: #fff;
+  border-radius: 20px;
+  font-family: "Pretendard-Regular";
+  margin-bottom: 20px;
+}
+
+.Complaints-top-btn {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  float: right;
+  margin-top: -25px;
+}
+
+.Complaints-top-btn img {
+  width: 20px;
+  margin-left: 10px;
+  cursor: pointer;
+}
+
+.Complaints-top-btn button {
+  border: none;
+  background-color: transparent;
+}
+
+.Complaints-title {
+  font-size: 35px;
+  margin-top: 20px;
+  margin-bottom: 10px;
+}
+
+.Complaints-sub-title {
+  font-size: 22px;
+}
+
+.Swiper-wrapper {
+  width: 100%;
+  margin-top: 50px;
+}
+
+.Complaints-img {
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: rgb(215, 239, 255);
+  cursor: pointer;
+  transition: all 300ms ease-in-out;
+}
+
+.Complaints-img:hover {
+  background-color: #fff;
+  border: 2px solid rgb(187, 220, 243);
+}
+
+.Complaints-img img {
+  width: 60px;
+}
+
+@media screen and (max-width: 1250px) {
+  .Complaints-wrapper {
+    width: 70%;
+    margin: 0 auto;
+    margin-bottom: 100px;
+  }
+}
+
+@media screen and (max-width: 900px) {
+  .Complaints-wrapper {
+    width: 80%;
+    border: solid red;
+  }
+
+  .Box-Tag2 {
+    width: 100px;
+    padding: 8px 5px;
+    font-size: 13px;
+    background-color: #002d46;
+    color: #fff;
+  }
+
+  .Complaints-title {
+    font-size: 28px;
+    margin-top: 0px;
+    margin-bottom: 10px;
+  }
+
+  .Complaints-sub-title {
+    font-size: 18px;
+  }
+
+  .Complaints-img {
+    width: 80px;
+    height: 80px;
+  }
+
+  .Complaints-img:hover {
+    background-color: #ded8ec;
+    border: 0px;
+  }
+
+  .Complaints-img img {
+    width: 50px;
+  }
+}
+
+@media screen and (max-width: 700px) {
+  .Complaints-wrapper {
+    margin-top: 100px;
+  }
+
+  .Complaints-img {
+    width: 65px;
+    height: 65px;
+  }
+
+  .Complaints-img img {
+    width: 40px;
+  }
+
+  .Complaints-top-btn {
+    margin-top: 30px;
+  }
+
+  .Complaints-top-btn img {
+    width: 15px;
+    margin-top: 5px;
+  }
+
+  .Swiper-wrapper {
+    width: 100%;
+    margin-top: 80px;
+  }
+}

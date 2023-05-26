@@ -1,0 +1,349 @@
+.BulletinBoard-wrapper {
+  width: 100%;
+  margin-bottom: 200px;
+}
+
+.BulletinBoard-box-wrap {
+  width: 60%;
+  margin: 0 auto;
+}
+
+.Box-Tag3 {
+  width: 130px;
+  text-align: center;
+  padding: 10px 8px;
+  font-size: 15px;
+  background-color: #002d46;
+  color: #fff;
+  border-radius: 20px;
+  font-family: "Pretendard-Regular";
+  margin-bottom: 20px;
+}
+
+.BulletinBoard-Inner-wrapper {
+  display: flex;
+  justify-content: space-between;
+  position: relative;
+}
+
+.BulletinBoard-box-inner-left {
+  width: 35%;
+}
+
+.BulletinBoard-box-title p:first-child {
+  font-size: 35px;
+  font-family: "Pretendard-Medium";
+}
+
+.BulletinBoard-box-title p:first-child strong,
+.BulletinBoard-box-title p:last-child strong {
+  color: #000;
+  font-family: "Pretendard-Medium";
+}
+
+.BulletinBoard-box-title p:last-child {
+  font-size: 22px;
+  font-family: "Pretendard-Medium";
+  margin-top: 10px;
+}
+
+.BulletinBoard-tag-inner {
+  float: right;
+  text-align: right;
+  margin-top: 40px;
+}
+
+.BulletinBoard-tag-inner p {
+  display: flex;
+  text-align: center;
+  margin-bottom: 15px;
+}
+
+.BulletinBoard-tag-inner p li {
+  width: 110px;
+  padding: 10px;
+  border-radius: 20px;
+  background-color: #deeeff;
+  font-family: "Pretendard-Medium";
+  font-size: 14px;
+}
+
+.BulletinBoard-tag-inner p li:first-child {
+  margin-right: 15px;
+}
+
+.notice-human {
+  position: absolute;
+  top: 160px;
+  left: -100px;
+}
+
+.notice-human img {
+  width: 180px;
+}
+
+.BulletinBoard-tag-inner button {
+  margin-top: 40px;
+  background-color: transparent;
+  border: 1px solid #666;
+  padding: 5px 15px;
+  font-size: 17px;
+  font-family: "Pretendard-Medium";
+  transition: all 300ms ease-in-out;
+  cursor: pointer;
+}
+
+.BulletinBoard-tag-inner button:hover {
+  background-color: #3d3d3d;
+  color: #fff;
+}
+
+.BulletinBoard-box-inner-right {
+  width: 55%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.BulletinBoard-InnerTop,
+.BulletinBoard-InnerBottom {
+  width: 100%;
+  height: 48%;
+  display: flex;
+  justify-content: space-between;
+}
+
+.BulletinBoard-ListBox {
+  width: 49%;
+  padding: 20px;
+  display: flex;
+  align-items: center;
+  background-color: #f3f3f3;
+  border-radius: 10px;
+  cursor: pointer;
+  transition: all 300ms ease-in-out;
+}
+
+.BulletinBoard-ListBox:hover {
+  transform: scale(0.95);
+  background-color: #f1f1f1;
+  box-shadow: 0px 0px 5px 5px #d9d9d9;
+}
+
+.BulletinBoard-ListBox-inner {
+  width: 100%;
+}
+
+.BulletinBoard-ListBox ul:first-child {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 15px;
+}
+
+.BulletinBoard-ListBox ul:last-child {
+  margin-left: 10px;
+}
+
+.BulletinBoard-ListBox ul:first-child span:first-child {
+  background-color: #ffffff;
+  padding: 5px 14px;
+  border-radius: 20px;
+  font-size: 14px;
+}
+
+.BulletinBoard-ListBox ul:last-child li {
+  margin-top: 10px;
+}
+
+@media screen and (max-width: 1250px) {
+  .BulletinBoard-box-wrap {
+    width: 70%;
+  }
+
+  .BulletinBoard-box-inner-left {
+    width: 40%;
+  }
+
+  .notice-human {
+    position: absolute;
+    top: 160px;
+    left: -100px;
+  }
+
+  .notice-human img {
+    width: 150px;
+  }
+}
+
+@media screen and (max-width: 900px) {
+  .BulletinBoard-box-wrap {
+    width: 80%;
+  }
+
+  .BulletinBoard-box-inner-left {
+    width: 40%;
+  }
+
+  .Box-Tag3 {
+    width: 100px;
+    padding: 8px 5px;
+    font-size: 13px;
+    background-color: #002d46;
+    color: #fff;
+  }
+
+  .BulletinBoard-box-inner-left {
+    width: 50%;
+  }
+
+  .BulletinBoard-box-title p:first-child {
+    font-size: 30px;
+  }
+
+  .BulletinBoard-box-title p:last-child {
+    font-size: 18px;
+  }
+
+  .BulletinBoard-tag-inner p li {
+    width: 100px;
+    padding: 8px 10px;
+    font-size: 14px;
+  }
+
+  .notice-human {
+    position: absolute;
+    top: 160px;
+    left: -70px;
+  }
+
+  .notice-human img {
+    width: 150px;
+  }
+
+  .BulletinBoard-tag-inner button {
+    padding: 8px 10px;
+    font-size: 14px;
+  }
+
+  .BulletinBoard-box-inner-right {
+    width: 40%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+
+  .BulletinBoard-InnerTop,
+  .BulletinBoard-InnerBottom {
+    width: 100%;
+    height: 50%;
+    flex-direction: column;
+    justify-content: flex-start;
+  }
+
+  .BulletinBoard-InnerBottom {
+    margin-top: -195px;
+  }
+
+  .BulletinBoard-ListBox {
+    width: 100%;
+    height: 45%;
+    margin-bottom: 8px;
+  }
+
+  .BulletinBoard-ListBox:hover {
+    transform: scale(1.02);
+    background-color: #f1f1f1;
+    box-shadow: none;
+  }
+
+  .BulletinBoard-ListBox ul:first-child {
+    margin-bottom: 0px;
+  }
+
+  .BulletinBoard-ListBox ul:last-child li {
+    margin-top: 0px;
+  }
+
+  .BulletinBoard-ListBox ul:last-child li:first-child {
+    display: none;
+  }
+
+  .BulletinBoard-ListBox ul:first-child span:first-child {
+    background-color: #e9efff;
+    padding: 3px 14px;
+    border-radius: 20px;
+    font-size: 12px;
+  }
+}
+
+@media screen and (max-width: 700px) {
+  .BulletinBoard-wrapper {
+    width: 100%;
+    height: 320px;
+    margin-bottom: 100px;
+  }
+
+  .BulletinBoard-box-title,
+  .BulletinBoard-tag-inner p {
+    display: none;
+  }
+
+  .notice-human {
+    display: none;
+  }
+
+  .BulletinBoard-tag-inner button {
+    padding: 8px 10px;
+    font-size: 14px;
+    position: absolute;
+    top: 180px;
+    right: 10px;
+  }
+
+  .BulletinBoard-InnerTop,
+  .BulletinBoard-InnerBottom {
+    width: 100%;
+    height: 50%;
+    flex-direction: row;
+    justify-content: space-between;
+  }
+
+  .BulletinBoard-ListBox {
+    width: 48%;
+    height: 80px;
+    margin-bottom: 0px;
+  }
+
+  .BulletinBoard-InnerTop .BulletinBoard-ListBox:first-child {
+    position: absolute;
+    top: 0;
+    left: 0;
+  }
+
+  .BulletinBoard-InnerTop .BulletinBoard-ListBox:last-child {
+    position: absolute;
+    left: 50%;
+    top: 0px;
+  }
+
+  .BulletinBoard-InnerBottom .BulletinBoard-ListBox:first-child {
+    position: absolute;
+    left: 0;
+    top: 100px;
+  }
+
+  .BulletinBoard-InnerBottom .BulletinBoard-ListBox:last-child {
+    position: absolute;
+    left: 50%;
+    top: 100px;
+  }
+
+  .BulletinBoard-ListBox ul:first-child span:first-child {
+    background-color: #e9efff;
+    padding: 3px 14px;
+    border-radius: 20px;
+    font-size: 12px;
+    margin-bottom: 5px;
+  }
+}

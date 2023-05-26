@@ -1,0 +1,189 @@
+.wrapper {
+    width: 1200px;
+    margin: 200px auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Pretendard-Bold';
+  }
+  
+  .container {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center ;
+    flex-direction: column;
+  }
+  
+  /* 로그인페이지 text */
+  .text {
+    text-align: center;
+  }
+
+  .text h1 {
+    margin-bottom: 10px;
+  }
+  /* 아이디, 비밀번호 text */
+
+  .id-pw-box {
+    margin-top: 30px;
+  }
+
+
+  .login-warn {
+    color: #4f4f4f;
+    font-size: 20px;
+    margin-bottom: 0px;
+   
+  }
+  
+  /* 로그인 페이지 input */
+  .input-box {
+    border: 2px solid #848484;
+    border-radius: 8px;
+    width: 430px;
+    height: 60px;
+    align-items: center;
+    display: flex;
+    margin-bottom: 10px;
+  }
+  
+  .input-box input {
+    margin: 0 10px;
+    width: 300px;
+    height: 50px;
+    border: none;
+    margin-left: 30px;
+    font-size: 16px;
+  }
+  
+  .input-box input:focus {
+    outline: none;
+  }
+
+  .login-inputbox {
+    margin-bottom: 20px;
+  }
+  
+  /* 로그인페이지 아이디저장 및 아이디찾기, 비밀번호 찾기 div*/
+  .login-functionbox {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    align-items: center;
+    margin-top: 20px;
+  }
+  
+  .keeptext-box{
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+  }
+  
+  .check-img {
+    margin-right: 7px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 20px;
+    height: 20px;
+  }
+  
+  /* 아이디 찾기, 비밀번호 찾기 */
+  .find-wrapbox div {
+    border: 1px solid #848484;
+  }
+  
+  .find-wrapbox ul {
+    display: flex;
+    grid-gap: 10px;
+  }
+  
+  .find-wrapbox li {
+    list-style: none;
+    cursor: pointer;
+  }
+  
+  /* 로그인 페이지 회원가입, 로그인 버튼 */
+  .login-btn-box {
+    display: flex;
+    flex-direction: column;
+    margin: 30px 0;
+  }
+  
+  /* 로그인 페이지 로그인 버튼 */
+  #login-btn {
+    width: 430px;
+    height: 60px;
+    font-size: 20px;
+    border-radius: 8px;
+    margin-bottom: 25px;
+    background-color: #030351;
+    color: #fff;
+    cursor: pointer;
+    transition: all 300ms ease-in-out;
+  }
+
+  #login-btn:hover {
+    background-color: #323280;
+    font-family: 'Pretendard-Bold';
+  }
+  
+  /* 로그인 페이지 회원가입버튼 */
+  #Register-btn {
+    width: 430px;
+    height: 60px;
+    font-size: 20px;
+    border-radius: 8px;
+    background-color: transparent;
+    border: 2px solid #848484;
+    cursor: pointer;
+    transition: all 300ms ease-in-out;
+  }
+
+  #Register-btn:hover {
+    background-color: #f1f9ff;
+    font-family: 'Pretendard-Bold';
+  }
+  
+  /* 로그인 페이지 sns div */
+  .sns-borderbox {
+    width: 100%;
+    display: flex;
+    grid-row-gap: 150px;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 30px;
+    grid-gap: 1.6rem;
+  }
+  
+  .sns-border {
+    width: 120px;
+    border: 1px solid #848484;
+  }
+  
+  .sns-img {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 500px;
+  }
+  
+  .sns-img img {
+    width: 60px;
+    cursor: pointer;
+  }
+
+  .sns-img img:hover {
+    animation: sns-img-hover 3s;
+  }
+
+  @keyframes sns-img-hover {
+    from {
+      transform: scale(1);
+    }
+    to {
+      transform: scale(1.2);
+    }
+  }

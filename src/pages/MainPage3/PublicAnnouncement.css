@@ -1,0 +1,228 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.PublicAnnouncement-wrapper {
+  width: 100%;
+  margin: 0 auto;
+  background: #f7f9fe;
+  padding: 100px 0;
+ 
+}
+
+.PublicAnnouncement-Box {
+  width: 60%;
+  display: flex;
+  justify-content: space-between;
+  margin: 0 auto;
+}
+
+.PublicAnnouncement-menulist {
+  width: 350px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  float: left;
+  position: relative;
+}
+
+.PublicAnnouncement-menulist li button {
+  background-color: transparent;
+  border: none;
+  outline: none;
+  font-size: 20px;
+  transition: all 300ms ease-in-out;
+}
+
+.PublicAnnouncement-menulist li:hover {
+  font-weight: 700;
+  color: rgb(15, 95, 187);
+}
+
+.PublicAnnouncement-menulist li:hover::after {
+  content: "";
+  display: block;
+  width: 7px;
+  height: 7px;
+  border-radius: 50%;
+  background-color: rgb(15, 95, 187);
+  position: absolute;
+  top: -15px;
+}
+
+.PublicAnnouncement-menulist li:first-child:hover::after {
+  margin-left: 32px;
+}
+
+.PublicAnnouncement-menulist li:nth-child(2):hover::after {
+  margin-left: 32px;
+}
+
+.PublicAnnouncement-menulist li:nth-child(3):hover::after {
+  margin-left: 32px;
+}
+
+.PublicAnnouncement-menulist li:nth-child(4):hover::after {
+  margin-left: 15px;
+}
+
+.PublicAnnouncement-menulist li:nth-child(5):hover::after {
+  margin-left: 15px;
+}
+
+.PublicAnnouncement-menuright {
+  width: 160px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.PublicAnnouncement-menuright button {
+  border: none;
+  background-color: transparent;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+}
+
+.PublicAnnouncement-menuright button img {
+  width: 30px;
+}
+
+.PublicAnnouncement-moreBtn {
+  width: 80px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #ececec;
+  border: 1px solid #ececec;
+  padding: 5px 6px;
+  border-radius: 20px;
+  cursor: pointer;
+}
+
+.PublicAnnouncement-moreBtn button {
+  cursor: pointer;
+}
+
+.PublicAnnouncement-Swiper-wrapper {
+  width: 63%;
+  display: flex;
+  justify-content: space-between;
+  margin: 0 auto;
+  margin-top: 50px;
+}
+
+.PublicAnnouncement-box1 {
+  width: 280px;
+  height: 150px;
+  margin: 0 auto;
+  background-color: #ffffff;
+  border: 1px solid #ececec;
+  border-radius: 10px;
+  padding: 25px;
+  position: relative;
+  cursor: pointer;
+  transition: all 300ms ease-in-out;
+}
+
+.PublicAnnouncement-box1:hover {
+  background-color: #ececec;
+}
+
+.PublicAnnouncement-span {
+  font-weight: 700;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+@media screen and (max-width: 1500px) {
+  .PublicAnnouncement-Box {
+    width: 70%;
+  }
+
+  .PublicAnnouncement-Swiper-wrapper {
+    width: 70%;
+  }
+
+  .PublicAnnouncement-box1 {
+    width: 280px;
+  }
+}
+
+@media screen and (max-width: 1250px) {
+  .PublicAnnouncement-Swiper-wrapper {
+    width: 80%;
+  }
+  .PublicAnnouncement-box1 {
+    width: 230px;
+    font-size: 14px;
+  }
+
+  .PublicAnnouncement-menulist {
+    width: 350px;
+  }
+  .PublicAnnouncement-menulist li button {
+    font-size: 18px;
+  }
+
+  .PublicAnnouncement-menuright {
+    width: 130px;
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .PublicAnnouncement-menuright button img {
+    width: 25px;
+  }
+
+  .PublicAnnouncement-moreBtn {
+    width: 65px;
+  }
+}
+
+@media screen and (max-width: 900px) {
+  .PublicAnnouncement-box1 {
+    width: 200px;
+    height: 130px;
+    font-size: 13px;
+  }
+
+  .PublicAnnouncement-box-inner {
+    margin-top: -10px;
+  }
+}
+
+@media screen and (max-width: 700px) {
+  .PublicAnnouncement-box1 {
+    width: 160px;
+    height: 120px;
+    font-size: 13px;
+    margin-top: 0px;
+    padding: 15px;
+  }
+
+  .PublicAnnouncement-box-inner {
+    margin-top: -10px;
+  }
+}
+
+@media screen and (max-width: 680px) {
+  .PublicAnnouncement-box1 {
+    width: 130px;
+    height: 120px;
+    font-size: 13px;
+    margin-top: 0px;
+    padding: 10px;
+  }
+
+  .PublicAnnouncement-box-inner {
+    margin-top: 10px;
+  }
+
+  .PublicAnnouncement-menuright {
+    display: none;
+  }
+}

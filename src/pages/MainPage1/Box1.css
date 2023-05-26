@@ -1,0 +1,163 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+li {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+.sidevar {
+  position: fixed;
+  top: 200px;
+  right: 60px;
+  z-index: 2;
+  display: flex;
+  align-items: center;
+}
+
+.sidevar-list {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+  align-items: center;
+  background-color: #fff;
+  box-shadow: 0 0 5px #d8d8d8;
+  padding: 20px 10px;
+  border-radius: 30px;
+}
+
+.Box1-text {
+  width: 130px;
+  position: absolute;
+  top: 25px;
+  right: 65px;
+  color: #fff;
+  padding: 10px 8px;
+  border-radius: 20px;
+  font-size: 13px;
+  font-family: "Pretendard-Regular";
+  display: none;
+}
+
+.sidevar-list img {
+  width: 40px;
+}
+
+.facebook-go {
+  top: 24px;
+  background-color: rgb(10, 81, 143);
+}
+
+.instargram-go {
+  top: 67px;
+  background-color: rgb(204, 82, 112);
+}
+
+.twitter-go {
+  top: 110px;
+  background-color: rgb(44, 171, 202);
+}
+
+.youtube-go {
+  top: 155px;
+  background-color: rgb(202, 44, 44);
+}
+
+.call-go {
+  top: 210px;
+  background-color: rgb(97, 211, 44);
+}
+
+.facebook-img:hover + .facebook-go,
+.instargram-img:hover + .instargram-go,
+.twitter-img:hover + .twitter-go,
+.youtube-img:hover + .youtube-go,
+.call-img:hover + .call-go {
+  display: block;
+}
+
+@media screen and (max-width: 980px) {
+  .sidevar {
+    position: fixed;
+    top: 150px;
+    right: 30px;
+    z-index: 2;
+    display: flex;
+    align-items: center;
+  }
+
+  .sidevar-list {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    background-color: #fff;
+    box-shadow: 0 0 5px #d8d8d8;
+    padding: 10px;
+    border-radius: 30px;
+  }
+
+  .Box1-text {
+    width: 110px;
+    position: absolute;
+    top: 0px;
+    right: 58px;
+    color: #fff;
+    padding: 8px;
+    border-radius: 20px;
+    font-size: 11px;
+    font-family: "Pretendard-Regular";
+    display: none;
+  }
+
+  .sidevar-list img {
+    width: 32px;
+  }
+
+  .facebook-go {
+    top: 10px;
+    background-color: rgb(10, 81, 143);
+  }
+
+  .instargram-go {
+    top: 50px;
+    background-color: rgb(204, 82, 112);
+  }
+
+  .twitter-go {
+    top: 90px;
+    background-color: rgb(44, 171, 202);
+  }
+
+  .youtube-go {
+    top: 130px;
+    background-color: rgb(202, 44, 44);
+  }
+
+  .call-go {
+    top: 170px;
+    background-color: rgb(97, 211, 44);
+  }
+
+  .facebook-img:hover + .facebook-go,
+  .instargram-img:hover + .instargram-go,
+  .twitter-img:hover + .twitter-go,
+  .youtube-img:hover + .youtube-go,
+  .call-img:hover + .call-go {
+    display: block;
+  }
+}
+
+@media screen and (max-width: 700px) {
+  .sidevar {
+    display: none;
+  }
+}

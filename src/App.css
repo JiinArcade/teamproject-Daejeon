@@ -1,0 +1,50 @@
+@font-face {
+  font-family: "정선";
+  src: url("./assets/fonts/AnyConv.com__JSArirangHON.woff");
+}
+
+@font-face {
+  font-family: "강원교육튼튼";
+  src: url("./assets/fonts/AnyConv.com__강원교육튼튼\ \(1\).woff");
+}
+
+@font-face {
+  font-family: "Pretendard-ExtraLight";
+  src: url("./assets/fonts/AnyConv.com__Pretendard-ExtraLight.woff");
+}
+
+@font-face {
+  font-family: "Pretendard-Regular";
+  src: url("https://cdn.jsdelivr.net/gh/Project-Noonnu/noonfonts_2107@1.1/Pretendard-Regular.woff")
+    format("woff");
+}
+
+@font-face {
+  font-family: "Pretendard-Medium";
+  src: url("./assets/fonts/AnyConv.com__Pretendard-Medium.woff");
+}
+
+@font-face {
+  font-family: "Pretendard-Bold";
+  src: url("./assets/fonts/AnyConv.com__Pretendard-Bold.woff");
+}
+
+@font-face {
+  font-family: "NanumSquareNeo-dEb";
+  src: url("./assets/fonts/AnyConv.com__NanumSquareNeo-dEb.woff");
+}
+
+@font-face {
+  font-family: "georgia";
+  src: url("./assets/fonts/georgia.woff");
+}
+
+@font-face {
+  font-family: "KCCMurukmuruk";
+  src: url("https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2302@1.0/KCCMurukmuruk.woff2")
+    format("woff2");
+}
+
+a:hover {
+  text-decoration: none;
+}

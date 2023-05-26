@@ -1,0 +1,113 @@
+.Covid-frontBox {
+  width: calc(100%);
+  background-color: #f7f7f7;
+  margin-top: 100px;
+  padding: 20px;
+  position: relative;
+}
+
+.Covid-timeNow {
+  font-weight: 700;
+  font-size: 14px;
+  font-family: "Pretendard-Medium";
+}
+
+.Covid-timeNow {
+  width: calc(100%);
+  display: flex;
+  justify-content: right;
+  padding-right: 150px;
+  margin-bottom: 50px;
+}
+
+.Covid-countBox {
+  /* width: 800px; */
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  /* justify-content: space-between;
+  align-items: center; */
+  margin: 0 auto;
+  padding: 0 15% 50px;
+  /* padding: 0 20px 50px; */
+  text-align: center;
+}
+
+.Covid-about .number {
+  font-size: 60px;
+  font-family: "georgia";
+  color: #414141;
+}
+
+.Covid-Nationwide,
+.Covid-Daejeon {
+  margin-bottom: 20px;
+  color: rgb(114, 114, 114);
+  font-weight: 700;
+  font-family: "Pretendard-Medium";
+}
+
+.Covid-letter {
+  margin-top: 20px;
+  font-family: "Pretendard-Medium";
+}
+
+@media screen and (max-width: 980px) {
+  .Covid-frontBox {
+    margin-top: 0px;
+    padding: 20px;
+    margin-top: 100px;
+  }
+
+  .Covid-timeNow {
+    font-weight: 400;
+    margin-bottom: 20px;
+  }
+
+  .Covid-timeNow {
+    width: calc(100%);
+    display: flex;
+    justify-content: left;
+    margin-left: 75px;
+    font-weight: 700;
+  }
+
+  .Covid-countBox {
+    padding: 0 5% 50px;
+  }
+
+  .Covid-about .number {
+    font-size: 40px;
+  }
+}
+
+@media screen and (max-width: 700px) {
+  .Covid-frontBox {
+    margin-top: -100px;
+    padding: 10px;
+    margin-top: 80px;
+  }
+
+  .Covid-timeNow {
+    display: flex;
+    justify-content: center;
+    font-weight: 700;
+    margin-top: 10px;
+  }
+
+  .Covid-countBox {
+    display: flex;
+    flex-direction: column;
+    padding: 0 5% 50px;
+  }
+
+  .Covid-about {
+    margin-bottom: 40px;
+    background-color: #fff;
+    border-radius: 10px;
+    padding: 20px;
+  }
+
+  .Covid-about .number {
+    font-size: 40px;
+  }
+}

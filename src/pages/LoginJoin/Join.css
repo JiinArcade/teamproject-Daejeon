@@ -1,0 +1,237 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Pretendard-Medium';
+}
+
+input:focus {
+    outline: none;
+}
+
+select:focus {
+    outline: none;
+}
+
+.join-container {
+    width: 1200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.logo-box img {
+    display: flex;
+    width: 130px;
+    margin: 30px auto;
+}
+
+.inputbox {
+    width: 500px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.margin {
+    margin-bottom: 15px;
+}
+
+strong {
+    color: #474747;
+}
+
+.inp {
+    border: 1px solid #a3a3a3;
+    width: 500px;
+    height: 45px;
+}
+
+.inp input {
+    width: 430px;
+    height: 35px;
+    display: flex;
+    margin: 7px;
+    border: none;
+    font-size: 15px;
+    margin-top: 5px;
+    margin-left: 15px;
+}
+
+.three-box {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    grid-gap: 20px;
+}
+
+.year-box {
+    border: 1px solid #848484;
+    width: 150px;
+    height: 40px;
+    border-radius: 5px;
+}
+
+.year {
+    width: 120px;
+    height: 25px;
+    margin: 7px;
+    border: none;
+} 
+
+.month-box {
+    border: 1px solid #848484;
+    width: 150px;
+    height: 40px;
+}
+
+.month-box select {
+    width: 120px;
+    height: 25px;
+    margin: 7px;
+    border: none;
+    cursor: pointer;
+}
+
+.day-box {
+    border: 1px solid #848484;
+    width: 150px;
+    height: 40px;
+}
+
+.day {
+    width: 120px;
+    height: 25px;
+    margin: 7px;
+    border: none;
+}
+
+.sel {
+    border: 1px solid #a3a3a3;
+    width: 500px;
+    height: 45px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 8px 0;
+}
+
+.sel select {
+    width: 450px;
+    height: 35px;
+    display: flex;
+    margin: 7px;
+    border: none;
+    cursor: pointer;
+}
+
+.phonenum {
+    display: flex;
+    flex-direction: column;
+}
+
+.country {
+    border: 1px solid #a3a3a3;
+    width: 500px;
+    height: 45px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 8px 0;
+}
+
+.country select {
+    width: 450px;
+    height: 35px;
+    display: flex;
+    margin: 7px;
+    border: none;
+    cursor: pointer;
+}
+
+.phonenum {
+    margin-bottom: 25px;
+}
+
+.number {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 8px 0;
+}
+
+.num-inp {
+    border: 1px solid #a4a4a4;
+    width: 380px;
+    height: 45px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 10px;
+}
+
+.num-inp input {
+    width: 330px;
+    height: 35px;
+    border: none;
+    
+}
+
+.number button {
+    width: 110px;
+    height: 45px;
+    background-color: #3395e5;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+}
+
+.number button:hover {
+    background-color: #62b8ff;
+}
+
+.event {
+    margin-top: 10px;
+}
+
+.circle{
+    display: inline-block;
+    width: 20px; height: 20px;
+    border: 2px solid #333;
+    box-sizing: border-box;
+    border-radius: 10px;
+    position: relative; top: 4px;
+    cursor: pointer; 
+    margin-right: 10px;
+  }
+
+  .circle:after{
+    content: '\2714'; 
+    font-size: 24px; color: #333;
+    position: absolute; top: -14px; left: 0;
+    opacity: 0; 
+    transition: 0.2s; 
+  }
+  
+  #chk:checked + .circle:after{ opacity: 1; }
+  
+
+  #chk{ position: absolute; left: -999em; }
+
+.join-btn-box {
+    display: flex;
+    justify-content: center;
+}
+
+.join-btn-box button {
+    width: 500px;
+    height: 45px;
+    border: none;
+    background-color: #3395e5;
+    color: #fff;
+    margin-bottom: 15px;
+    cursor: pointer;
+}

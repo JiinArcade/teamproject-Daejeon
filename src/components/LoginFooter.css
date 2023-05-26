@@ -1,0 +1,29 @@
+li {
+    list-style: none;
+    cursor: pointer;
+}
+
+/* li:hover {
+    text-decoration: underline;
+} */
+
+.footer-box {
+    width: 600px;
+    color: #8d9091;
+    font-size: 13px;
+    margin-top: 40px;
+}
+
+.text-list {
+    height: 50px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.footer-bottom {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}

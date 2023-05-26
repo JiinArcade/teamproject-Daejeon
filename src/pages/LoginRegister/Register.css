@@ -1,0 +1,251 @@
+.wrapper {
+    width: 100%;
+    margin: 100px auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Pretendard-Medium';
+}
+
+.logo-box img {
+    width: 80px;
+    margin-top: -50px;
+    margin-bottom: 80px;
+}
+
+.all-check {
+    width: 800px;
+    height: 80px;
+    display: flex;
+}
+
+.all-check-text {
+    margin-top: -28px;
+    margin-left: 10px;
+}
+
+.all-check-text strong {
+    color: #000;
+    font-size: 20px;
+}
+
+.chk-img {
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 20px;
+    height: 20px;
+    cursor: pointer;
+}
+
+.chk-img-text {
+    display: flex;
+    align-items: center;
+    margin-top: 2px;
+    margin-left: 5px;
+}
+
+.all-check span {
+    margin-left: 8px;
+}
+
+.check {
+    width: 800px;
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 20px;
+}
+
+.chk {
+    display: flex;
+    align-items: center;
+    margin-top: 20px;
+}
+
+.chk span {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.chk span h3 {
+    margin: 0;
+    margin-left: 8px;
+    line-height: 100%;
+}
+
+.chk span p {
+    font-size: 14px;
+    width: 50px;
+    padding: 3px;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    background-color: #389afc;
+    border-radius: 30px;
+    margin-left: 10px;
+    color: #fff;
+}
+
+.terms {
+    margin-top: 20px;
+    word-break: keep-all;
+    padding: 0 20px;
+    overflow: auto;
+    overflow-y: scroll;
+    height: 130px;
+    width: 800px;
+    border: 1px solid #606060;
+}
+
+.red-text {
+    display: flex;
+    justify-content: flex-end;
+    color: #ff4a4a;
+}
+
+.table-box {
+    margin-bottom: 40px;
+    width: 800px;
+    margin-top: 30px;
+}
+
+.corporation-text,
+.table-box-text {
+    font-size: 20px;
+    color: #000;
+}
+
+.table-box div {
+    width: 800px;
+    padding: 20px 20px;
+    border: 2px solid #848484;
+    margin-top: 20px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.table-box table {
+    /* border: 1px solid #afafaf; */
+    border-collapse: collapse;
+    width: 100%;
+    text-align: center;
+    margin-top: 20px;
+}
+
+td {
+    border-bottom: 1px solid #afafaf;
+    border-top: 1px solid #afafaf;
+}
+
+th {
+    border-top: 1px solid #4f4f4f;
+    background-color: #eeeeee;
+}
+
+td:first-child,
+th:first-child {
+    border-right: 1px solid #afafaf;
+}
+
+.corporation {
+    margin: 0 auto;
+    width: 800px;
+}
+
+.corporation-box {
+    border: 2px solid #848484;
+    padding: 20px 20px;
+    margin-top: 15px;
+}
+
+.corporation p {
+    text-align: center;
+}
+
+.agency-box {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+.agency-box label {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-right: 25px;
+    padding: 4px 10px;
+    width: 250px;
+    height: 35px;
+    background-color: #2581bf;
+}
+
+.agency-box label:last-child {
+    margin-right: 0;
+}
+
+.agency-box label span {
+    margin-right: 8px;
+    color: #fff;
+}
+
+.agency img {
+    width: 20px;
+    margin-top: 8px;
+    cursor: pointer;
+}
+
+.ragister-btn-box {
+    width: 800px;
+    margin: 50px 0;
+    display: flex;
+    justify-content: center;
+
+}
+
+.prev-btn {
+    width: 350px;
+    height: 50px;
+    margin-right: 40px;
+    background-color: #8d9091;
+    color: #fff;
+    font-size: 18px;
+    border: none;
+    cursor: pointer;
+}
+
+.prev-btn:hover {
+    background-color: #c4c4c4;
+}
+
+
+.next-btn {
+    width: 350px;
+    height: 50px;
+    background-color: #3395e5;
+    color: #fff;
+    font-size: 18px;
+    border: none;
+    cursor: pointer;
+}
+
+.next-btn:hover {
+    background-color: #70bbf8;
+}
+
+.foreigner {
+    width: 100%;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.foreigner-id {
+    color: black;
+    cursor: pointer;
+    margin-left: 10px;
+    font-weight: 700;
+    text-decoration: underline;
+}

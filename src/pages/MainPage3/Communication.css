@@ -1,0 +1,241 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.swiper-button-prev,
+.swiper-button-next {
+  display: none;
+}
+
+.Box-Tag {
+  width: 130px;
+  text-align: center;
+  padding: 10px 8px;
+  font-size: 15px;
+  background-color: #002d46;
+  color: #fff;
+  border-radius: 20px;
+  font-family: "Pretendard-Regular";
+  margin-bottom: 20px;
+}
+
+.Communication-wrapper {
+  width: 60%;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  margin-top: 100px;
+  margin-bottom: 200px;
+}
+
+.Communication-wrapper-inner {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+}
+
+.Communication-text-box {
+  width: 100%;
+  display: block;
+  text-align: left;
+  letter-spacing: 1px;
+}
+
+.Communication-text-box p:first-child {
+  font-size: 35px;
+  margin-bottom: 10px;
+  font-family: "Pretendard-Medium";
+}
+
+.Communication-text-box p:first-child span,
+.Communication-text-box p:nth-child(3) span,
+.Communication-text-box p:nth-child(4) span {
+  color: rgb(0, 0, 0);
+  font-weight: 700;
+}
+
+.Communication-text-box p:nth-child(2) {
+  font-size: 20px;
+  margin-bottom: 20px;
+}
+
+.Communication-text-box p:nth-child(3),
+.Communication-text-box p:nth-child(4) {
+  font-size: 18px;
+  margin-bottom: 10px;
+}
+
+.Communication-text-box button {
+  width: 120px;
+  background-color: transparent;
+  font-size: 17px;
+  margin-top: 80px;
+  border: 1px solid #666;
+  padding: 5px 15px;
+  cursor: pointer;
+  transition: all 300ms ease-in-out;
+}
+
+.Communication-text-box button:hover {
+  background-color: #3d3d3d;
+  color: #fff;
+}
+
+.Communication-Swiper-Box {
+  width: 55%;
+  margin-left: 50px;
+}
+
+.Communication-Swiper-Box img {
+  width: 100%;
+}
+
+@media screen and (max-width: 1250px) {
+  .Communication-wrapper {
+    width: 70%;
+    padding: 100px 0;
+    position: relative;
+    margin-bottom: 50px;
+  }
+
+  .Communication-wrapper-inner {
+    width: 100%;
+  }
+
+  .Communication-text-box {
+    width: 100%;
+    display: block;
+    text-align: left;
+    letter-spacing: 1px;
+  }
+
+  .Communication-Swiper-Box {
+    width: 50%;
+  }
+
+  .Communication-Swiper-Box img {
+    width: 100%;
+  }
+
+  .Communication-text-box button {
+    margin-top: 30px;
+  }
+}
+
+@media screen and (max-width: 900px) {
+  .Box-Tag {
+    width: 100px;
+    padding: 8px 5px;
+    font-size: 13px;
+    background-color: #002d46;
+    color: #fff;
+  }
+
+  .Communication-wrapper {
+    width: 80%;
+    padding: 100px 0;
+    margin-bottom: 0px;
+  }
+
+  .Communication-text-wrapper {
+    width: 80%;
+  }
+
+  .Communication-wrapper-inner {
+    width: 100%;
+  }
+
+  .Communication-Swiper-Box {
+    width: 350px;
+  }
+
+  .Communication-Swiper-Box img {
+    width: 100%;
+  }
+
+  .Communication-text-box p:first-child {
+    font-size: 28px;
+    margin-bottom: 5px;
+  }
+
+  .Communication-text-box p:nth-child(2) {
+    font-size: 18px;
+    margin-bottom: 20px;
+  }
+
+  .Communication-text-box p:nth-child(3) {
+    font-size: 18px;
+    margin-bottom: 10px;
+  }
+
+  .Communication-text-box p:nth-child(4) {
+    font-size: 18px;
+  }
+
+  .Communication-text-box button {
+    width: 90px;
+    font-size: 15px;
+    padding: 5px;
+  }
+}
+
+@media screen and (max-width: 700px) {
+  .Communication-wrapper {
+    width: 80%;
+    height: 350px;
+    position: relative;
+    padding: 0;
+    margin-top: 100px;
+    margin-bottom: 100px;
+  }
+
+  .Box-Tag {
+    position: absolute;
+    top: 0;
+  }
+
+  .Communication-Swiper-Box {
+    width: 100%;
+    position: absolute;
+    top: 135px;
+    margin: 0 auto;
+  }
+
+  .Communication-Swiper-Box img {
+    width: 100%;
+  }
+
+  .Communication-text-box p:first-child {
+    font-size: 28px;
+    margin-bottom: 5px;
+    position: absolute;
+    top: 47px;
+  }
+
+  .Communication-text-box p:nth-child(2) {
+    font-size: 18px;
+    margin-bottom: 20px;
+    position: absolute;
+    top: 90px;
+  }
+
+  .Communication-text-box p:nth-child(3) {
+    display: none;
+  }
+
+  .Communication-text-box p:nth-child(4) {
+    display: none;
+  }
+
+  .Communication-text-box button {
+    width: 70px;
+    font-size: 13px;
+    padding: 5px;
+    position: absolute;
+    top: 50px;
+    right: 0;
+  }
+}

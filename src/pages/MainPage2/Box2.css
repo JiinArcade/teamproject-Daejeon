@@ -1,0 +1,440 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+li {
+  list-style: none;
+}
+
+.mayorBox-md-only {
+  display: none;
+}
+
+.Box2-wrapper {
+  padding: 150px 0;
+  font-family: "Pretendard-Medium";
+}
+
+.Box2-bgImg {
+  display: grid;
+  /* grid-template-columns: 2fr 1fr 1fr;
+  grid-template-rows: 1fr 4fr 1fr; */
+  width: 80%;
+  height: 600px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-image: linear-gradient(rgba(0, 0, 0, 1), rgba(0, 0, 0, 1)),
+    url("/src/assets/img/대전야경3.png");
+  background-blend-mode: difference;
+  margin: 0 auto;
+  position: relative;
+  animation: night-daejeon 3s;
+}
+
+@keyframes night-daejeon {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+.Box2-text-wrapper {
+  color: #fff;
+  position: absolute;
+  top: 20%;
+  left: 10%;
+  z-index: 15;
+}
+
+.Box2-text-list h1 {
+  padding: 10px 0 15px 0;
+  font-size: 45px;
+  font-weight: 700;
+  letter-spacing: 3px;
+  font-family: "Pretendard-Bold";
+}
+
+.daejeon-target {
+  margin-bottom: 20px;
+}
+
+.Box2-text-list span {
+  margin-right: 20px;
+}
+
+.Box2-text-list button {
+  background-color: transparent;
+  border: 2px solid #fff;
+  padding: 5px 10px;
+  color: #fff;
+  margin-bottom: 100px;
+  cursor: pointer;
+  transition: all 300ms ease-in-out;
+}
+
+.Box2-text-list button:hover {
+  background-color: #fff;
+  color: #000;
+}
+
+.Box2-text-list-2 {
+  font-size: 20px;
+  margin-bottom: 10px;
+}
+
+.Box2-text-list-2 p:last-child {
+  margin-top: 10px;
+}
+
+.Box2-text-list-2 p:last-child span {
+  font-size: 25px;
+  font-weight: 700;
+  padding: 0 10px;
+}
+
+.mayor-img-box {
+  position: absolute;
+  top: 52%;
+  left: 20%;
+  z-index: 15;
+}
+
+.mayorBox-wrapper {
+  position: absolute;
+  top: 25%;
+  right: 8%;
+  z-index: 15;
+}
+
+.mayorBox-wrapper:first-child {
+  right: 31%;
+}
+
+.mayorBox-wrapper:last-child {
+  top: 55%;
+}
+
+.mayor-box {
+  width: 280px;
+  height: 150px;
+  background-color: #fff;
+  cursor: pointer;
+  position: relative;
+}
+
+.mayor-box:hover {
+  background-color: #ececec;
+}
+
+.mayor-box:hover:before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  border: 3px solid rgb(92, 158, 227);
+  animation: clippath 3s infinite linear;
+}
+
+@keyframes clippath {
+  0%,
+  100% {
+    clip-path: inset(0 0 95% 0);
+  }
+
+  25% {
+    clip-path: inset(0 95% 0 0);
+  }
+
+  50% {
+    clip-path: inset(95% 0 0 0);
+  }
+
+  75% {
+    clip-path: inset(0 0 0 95%);
+  }
+}
+
+.mayor-list {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.mayor-list p {
+  color: #666;
+  font-size: 16px;
+  position: absolute;
+  top: 20%;
+  left: 15%;
+}
+
+.mayor-arrow img {
+  width: 40px;
+}
+
+.mayor-titleimg img {
+  width: 70px;
+}
+
+.mayor-arrow {
+  position: absolute;
+  top: 63%;
+  left: 15%;
+}
+
+.mayor-titleimg {
+  position: absolute;
+  top: 45%;
+  right: 15%;
+}
+
+@media screen and (max-width: 1800px) {
+  .Box2-wrapper {
+    padding: 0;
+    font-family: "Pretendard-Medium";
+    margin-bottom: 100px;
+  }
+
+  .Box2-bgImg {
+    grid-template-columns: 0;
+    grid-template-rows: 0;
+    width: 80%;
+    height: 600px;
+  }
+
+  .Box2-text-wrapper {
+    color: #fff;
+    position: absolute;
+    top: 20%;
+    left: 10%;
+    z-index: 15;
+  }
+
+  .mayor-img-box {
+    position: absolute;
+    top: 52%;
+    left: 20%;
+    z-index: 15;
+  }
+
+  .mayorBox-bigwrapper {
+    position: absolute;
+    top: 0;
+    right: 8%;
+  }
+
+  .mayorBox-wrapper {
+    position: relative;
+    z-index: 0;
+    margin-bottom: 20px;
+  }
+
+  .mayorBox-wrapper:first-child {
+    margin-top: 55px;
+    top: 120px;
+    right: 120%;
+  }
+
+  .mayorBox-wrapper:nth-child(2) {
+    bottom: 50px;
+  }
+}
+
+@media screen and (max-width: 1600px) {
+  .mayorBox-wrapper:first-child {
+    top: 0;
+    right: 8%;
+  }
+
+  .mayorBox-wrapper:nth-child(2) {
+    top: 0;
+    right: 8%;
+  }
+
+  .mayorBox-wrapper:last-child {
+    top: 0%;
+  }
+}
+
+@media screen and (max-width: 1200px) {
+  .mayorBox-wrapper {
+    position: absolute;
+    top: 0;
+    right: -10%;
+    z-index: 15;
+  }
+
+  .mayorBox-wrapper:first-child {
+    top: 50px;
+    right: 0%;
+  }
+
+  .mayorBox-wrapper:nth-child(2) {
+    top: 240px;
+    right: 0%;
+  }
+
+  .mayorBox-wrapper:last-child {
+    top: 380px;
+  }
+
+  .mayor-box {
+    width: 200px;
+    height: 120px;
+  }
+
+  .mayor-list p {
+    color: #666;
+    font-size: 14px;
+    position: absolute;
+    top: 20%;
+    left: 15%;
+  }
+
+  .mayor-arrow {
+    position: absolute;
+    top: 63%;
+    left: 15%;
+  }
+
+  .mayor-titleimg {
+    position: absolute;
+    top: 45%;
+    right: 15%;
+  }
+
+  .mayor-arrow img {
+    width: 30px;
+  }
+
+  .mayor-titleimg img {
+    width: 50px;
+  }
+}
+
+@media screen and (max-width: 980px) {
+  .mayorBox-md-only {
+    display: block;
+  }
+
+  .md-mayorBox-wrap {
+    position: absolute;
+    bottom: 10%;
+    left: 10%;
+    margin-top: 30px;
+  }
+
+  .md-mayorBox {
+    width: 100%;
+    background: #fff;
+    margin-bottom: 8px;
+    padding: 10px 15px;
+    position: relative;
+    font-size: 13px;
+  }
+
+  .md-mayorBox:hover {
+    background-color: #ececec;
+  }
+
+  .md-mayorBox:hover::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    border: 3px solid rgb(92, 158, 227);
+    animation: clippath 3s infinite linear;
+  }
+
+  @keyframes clippath {
+    0%,
+    100% {
+      clip-path: inset(0 0 95% 0);
+    }
+
+    25% {
+      clip-path: inset(0 95% 0 0);
+    }
+
+    50% {
+      clip-path: inset(95% 0 0 0);
+    }
+
+    75% {
+      clip-path: inset(0 0 0 95%);
+    }
+  }
+
+  .md-img-wrap {
+    width: 180px;
+    height: 60px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  .md-img-wrap span:first-child img {
+    width: 50px;
+  }
+
+  .md-img-wrap span:last-child img {
+    width: 60px;
+  }
+
+  .Box2-text-list h1 {
+    font-size: 33px;
+    letter-spacing: 1.5px;
+    font-family: "NanumSquareNeo-dEb";
+  }
+
+  .daejeon-target {
+    width: 350px;
+    position: absolute;
+    top: -80px;
+    margin-bottom: 0px;
+  }
+
+  .Box2-text-list button {
+    background-color: #fff;
+    border: none;
+    color: #000;
+    margin-top: 270px;
+    float: right;
+    position: absolute;
+    right: -100%;
+    padding: 20px;
+  }
+
+  .Box2-text-list button:active {
+    background-color: #d8d8d8;
+  }
+
+  .mayorBox-bigwrapper,
+  .mayor-img-box img,
+  .Box2-text-list-2 {
+    display: none;
+  }
+}
+
+@media screen and (max-width: 790px) {
+  .Box2-text-list button {
+    background-color: #fff;
+    border: none;
+    color: #000;
+    margin-top: 285px;
+    float: right;
+    position: absolute;
+    right: -10%;
+    padding: 10px;
+  }
+}
