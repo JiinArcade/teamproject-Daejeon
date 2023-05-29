@@ -37,12 +37,11 @@ const MinwonList = () => {
         <div className="Swiper-wrapper">
           <Swiper
             // install Swiper modules
-            modules={[Navigation, Pagination, Scrollbar, A11y]}
+            modules={[Pagination, A11y]}
             spaceBetween={50}
             slidesPerView={6}
             navigation
             pagination={{ clickable: true }}
-            scrollbar={{ draggable: true }}
           >
             <SwiperSlide>
               <div className="Complaints-img">

@@ -413,15 +413,7 @@ const BulletinBoard = () => {
 
         <div style={{ display: "flex", justifyContent: "center" }}>
           <div
-            style={{
-              width: "700px",
-              height: "160px",
-              backgroundColor: "#f7f7f7",
-              marginTop: "100px",
-              display: "flex",
-              justifyContent: "center",
-              alignItems: "center",
-            }}
+            
           >
             <div style={{ position: "relative" }}>
               <input
