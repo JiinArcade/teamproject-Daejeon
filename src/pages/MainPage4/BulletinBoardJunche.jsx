@@ -5,7 +5,6 @@ import "./BulletinBoardJunche.css";
 import videoTim from "./당신이 마주할 대전, 당신에게 대전이란.mp4";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faMagnifyingGlass, faChevronRight, faAngleLeft } from "@fortawesome/free-solid-svg-icons";
-import GesifanSlide from "./BulletinBoardSlide";
 import Mainpage from "../Mainpage";
 
 const BulletinBoard = () => {
@@ -189,8 +188,8 @@ const BulletinBoard = () => {
           </button>
         </div>
 
-        <div className="gesifan-box11">
-          <GesifanSlide></GesifanSlide>
+        <div className="popular-Box">
+         
         </div>
 
         <div className="freeborad-main-line-box">

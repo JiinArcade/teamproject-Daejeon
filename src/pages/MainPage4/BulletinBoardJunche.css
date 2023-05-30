@@ -212,6 +212,7 @@ li {
 }
 
 .BulletinBoard-main-top {
+  width: calc(100%);
   margin-top: 6.2vw;
   text-align: center;
 }
@@ -262,67 +263,6 @@ li {
   border: 0.12vw solid #000;
   padding: 0.3vw 0.6vw;
   border-radius: 1.25vw;
-}
-
-.gesifan-box11 {
-  width: 62vw;
-  height: 12vw;
-  justify-content: space-between;
-  align-items: center;
-  margin: 0 auto;
-  margin-top: 1.8vw;
-  position: relative;
-}
-
-.gesifan-box11-icon img {
-  width: 1.25vw;
-  position: absolute;
-  right: 0;
-  top: 3vw;
-}
-
-.gesifan-box12 {
-  width: 18vw;
-  height: 11vw;
-  background-color: #f5f5f5;
-  border-radius: 0.9vw;
-  transition: all 300ms ease-in-out;
-  cursor: pointer;
-}
-
-.gesifan-box12:hover {
-  margin-top: -0.5vw;
-  border: none;
-  background-color: #fff;
-  box-shadow: 0px 0px 1.25vw #bdbdbd;
-}
-
-.gesifan-box12 img {
-  width: 1vw;
-  position: absolute;
-  top: 1vw;
-  right: 1vw;
-}
-
-.gesifan-box12-inner {
-  padding: 1.25vw;
-}
-
-.gesifan-span {
-  width: 6.25vw;
-  padding: 0.3vw 0.5vw;
-  background: #dbefff;
-  text-align: center;
-  font-size: 0.8vw;
-  border-radius: 1vw;
-  margin-bottom: 1.5vw;
-  margin-top: 0.6vw;
-  border: solid red;
-}
-
-.gesifan-box12-inner p:last-child {
-  margin-top: 0.6vw;
-  color: #363636;
 }
 
 .freeborad-main-line-box {
